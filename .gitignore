@@ -42,6 +42,28 @@
 *.VC.opendb
 .vsconfig
 
+# Unreal generated folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Logs
+*.log
+
+# Autosaves
+*_Auto*.uasset
+
+# Windows junk
+Thumbs.db
+Desktop.ini
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.VC.db
+
 # Precompiled Assets
 SourceArt/**/*.png
 SourceArt/**/*.tga
@@ -73,3 +95,4 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
